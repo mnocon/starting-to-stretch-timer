@@ -23,13 +23,13 @@ function getExercises() {
 
 function getPhases() {
     const phases = [
+        {"name" : 'Rest', "time": 15 },
         {"name" : '10 stretches', "time": 10 },
         {"name" : 'Hold the stretch', "time": 10 },
         {"name" : '10 stretches', "time": 10 },
         {"name" : 'Hold the stretch', "time": 20 },
         {"name" : '10 stretches', "time": 10 },
         {"name" : 'Hold the stretch', "time": 30 },
-        {"name" : 'Rest', "time": 15 },
     ]
 
     return phases;
