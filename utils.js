@@ -4,4 +4,8 @@ function callbackClosure(name, phase, time, callback) {
     }
   }
 
-  
+  function setIntervalLimited(callback, interval, x) {
+    for (var i = 0; i < x; i++) {
+        setTimeout(callback, i * interval);
+    }
+}
